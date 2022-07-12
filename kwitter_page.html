@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwitter</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="kwitter_page.css">
+    </head>
+    <body>
+        <div class="container">
+        <center>
+            <div class="col-xs col-sm col-md col-lg">
+                <button type="button" onclick="logout()" id="btnlogout"><span class="glyphicon glyphicon-log-out"></span>Log Out</button>
+            </div>
+            <h1 style="color: white;" class="header" id="heading1">
+                Kwitter <sup>
+                    <img src="m2.png" id="message">
+                </sup>
+            </h1>
+            <div id="output" style="text-align: left; margin-bottom: 70px;"></div>
+        </center>
+        </div>
+        <center>
+            <div class="input_div_msg_page">
+                <label>Send:</label>
+                <input type="text" id="msg" placeholder="Type your message here">
+                <button onclick="send()" class="fa fa-trash">Send the message</button>
+            </div>
+        </center>
+        <script src="kwitter_page.js"></script>
+    </body>
+

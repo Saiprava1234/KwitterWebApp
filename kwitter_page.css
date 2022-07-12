@@ -1,0 +1,45 @@
+#heading1{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 60px;
+    color: wheat;
+    filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
+    letter-spacing: 3px;
+}
+body{
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    color: white;
+    background-repeat: no-repeat;
+    font-size: large;
+    background-image: linear-gradient(to right, rgb(255, 0, 179), rgb(155, 155, 255), rgb(0, 183, 255));
+}
+#btnlogout{
+    padding: 5px;
+    border-color: rgb(255, 138, 117);
+    filter: drop-shadow(7px 10px 3px black);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 80%;
+    background-color: red;
+    color: white;
+    font-family: 'Zen Antique', serif;
+    font-size: 21px;
+}
+#btnlogout:hover {
+    font-weight: bold;
+    color: black;
+    background-image: linear-gradient(to right, yellow,rgb(255, 72, 0),deeppink,darkviolet, deeppink,rgb(255, 72, 0),yellow);
+  }
+  #message{
+    width: 100px;
+}
+#output{
+    background-color: aquamarine;
+    color: black;
+}
+#input_div_msg_page{
+    background: white;
+}
